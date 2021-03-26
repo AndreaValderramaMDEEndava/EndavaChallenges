@@ -61,10 +61,13 @@ public class BaseTest {
         driver.findElement(locator).sendKeys(Keys.ENTER);
     }
 
+<<<<<<< HEAD
     public void tab (By locator){
         driver.findElement(locator).sendKeys(Keys.TAB);
     }
 
+=======
+>>>>>>> ac24d54cf5b8d52f28db4b397d52498130ff8b49
     public Boolean isDisplayed(By locator){
         try {
             return driver.findElement(locator).isDisplayed();
