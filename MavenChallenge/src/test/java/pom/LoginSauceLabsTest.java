@@ -6,7 +6,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
 public class LoginSauceLabsTest {
-    //Declarar variable driver y una instancia de la clase SearchBookPage para usar sus métodos
+    //Declarar variable driver y una instancia de la clase Login Page para usar sus métodos
     private WebDriver driver;
     LoginSauceLabsPage loginSauceLabsPage;
 
@@ -27,7 +27,6 @@ public class LoginSauceLabsTest {
     public void test(){
         loginSauceLabsPage.loginOnSauceLabs();
         loginSauceLabsPage.assertionOnSauceLabsPage();
-        //loginSauceLabsPage.messageBookFound();
         loginSauceLabsPage.isLogoDisplayed();
     }
 }

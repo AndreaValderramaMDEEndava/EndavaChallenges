@@ -13,8 +13,8 @@ public class LoginSauceLabsPage extends BaseTest{
     By username = By.xpath("//*[@id=\"user-name\"]");
     By password = By.xpath("//*[@id=\"password\"]");
     By loginButton = By.xpath("//*[@id=\"login-button\"]");
-    By messageFound = By.xpath("//*[contains(text(),\"Products\")]");
-    By logoPage = By.xpath("//*[@class=\"app_logo\"]");
+    By messageFound = By.xpath("//*[contains(text(),'Products')]");
+    By logoPage = By.xpath("//*[@class='app_logo']");
     public String messageExpected = "Products";
 
     //ACCIONES SOBRE LOS WEB ELEMENTS USANDO LOS METODOS WRAPPER QUE CREAMOS DE SELENIUM
